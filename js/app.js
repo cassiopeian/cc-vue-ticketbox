@@ -55,6 +55,13 @@ const app = new Vue({
         } else {
           return 'gray';
         }
+      },
+      submitButtonCursor: function() {
+        if (this.formIsValid) {
+          return 'pointer';
+        } else {
+          return 'default';
+        }
       }
     },
     watch: {
