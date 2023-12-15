@@ -74,6 +74,14 @@ const app = new Vue({
             'border-width': '2px'
           }
         }
+      },
+      invalidEmailStyles: function () {
+        if (this.email && !this.emailIsValid) {
+          return {
+            'background-color': '#ffeded',
+            'border-color': '#da5252'
+          }
+        }
       }
     },
     watch: {
