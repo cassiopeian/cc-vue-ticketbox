@@ -61,6 +61,19 @@ const app = new Vue({
             cursor: 'default'
           }
         }
+      },
+      touchedEmailStyles: function() {
+        if (this.email) {
+          return {
+            'border-color': '#bdbcbc',
+            'border-width': '2px'
+          }
+        } else {
+          return {
+            'border-color': '#e0e0e0',
+            'border-width': '2px'
+          }
+        }
       }
     },
     watch: {
