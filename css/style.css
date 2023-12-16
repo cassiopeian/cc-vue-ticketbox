@@ -110,11 +110,11 @@ margin-bottom: .71rem;
 font-family: 'Petit Formal Script', cursive;
 }
 button {
-cursor: pointer;
+cursor: default;
 padding: .85rem 2.29rem;
 border-radius: 4px;
 margin-right: 1.36rem;
-background-color: #4c7ef3;
+background-color: #808080;
 font-size: 1.14rem;
 color: #ffffff;
 transition: .25s;
