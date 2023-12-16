@@ -52,19 +52,6 @@ const app = new Vue({
       formIsValid: function() {
         return this.firstName && this.lastName && this.email && this.purchaseAgreementSigned;
       },
-      submitButtonStyles: function() {
-        if (this.formIsValid) {
-          return {
-            'background-color': '#4c7ef3',
-            cursor: 'pointer'
-          }
-        } else {
-          return {
-            'background-color': 'gray',
-            cursor: 'default'
-          }
-        }
-      },
       touchedEmailStyles: function() {
         if (this.email) {
           return {
