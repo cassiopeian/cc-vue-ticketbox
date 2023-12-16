@@ -129,6 +129,10 @@ background-color: #e85b49;
 button.reset:hover {
 background-color: #ea2e16;
 }
+button.active {
+    cursor: pointer;
+    background-color: #4c7ef3;
+}
 
 /* Developer Pane */
 
