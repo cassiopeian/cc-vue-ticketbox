@@ -119,7 +119,7 @@ font-size: 1.14rem;
 color: #ffffff;
 transition: .25s;
 }
-button:hover {
+button.active:hover {
 background-color: #1e5df1;
 }
 button.reset {
