@@ -123,6 +123,7 @@ button.active:hover {
 background-color: #1e5df1;
 }
 button.reset {
+cursor: pointer;
 background-color: #e85b49;
 }
 button.reset:hover {
