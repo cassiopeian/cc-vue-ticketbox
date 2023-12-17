@@ -49,6 +49,16 @@ textarea:focus,
 input:focus{
     outline: none;
 }
+input.required {
+    border-width: 2px;
+}
+input.touched {
+    border-color: #bdbcbc;
+}
+input.invalid {
+    background-color: #ffeded;
+    border-color: #da5252;
+}
 textarea {
     height: 5.2rem;
 }
