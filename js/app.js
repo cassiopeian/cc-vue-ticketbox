@@ -8,7 +8,8 @@ const app = new Vue({
       ticketType: 'general',
       referrals: [],
       specialRequests: '',
-      purchaseAgreementSigned: false
+      purchaseAgreementSigned: false,
+      requiredFieldClass: 'required'
     },
     computed: {
       fullName: {
