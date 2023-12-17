@@ -52,6 +52,12 @@ const app = new Vue({
       },
       formIsValid: function() {
         return this.firstName && this.lastName && this.email && this.purchaseAgreementSigned;
+      },
+      emailClasses: function() {
+        return {
+          touched: this.email.length !== 0,
+          invalid: this.email && !this.emailIsValid
+        };
       }
     },
     watch: {
